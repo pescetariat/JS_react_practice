@@ -1,0 +1,44 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "airbnb", 
+        "airbnb/hooks",
+        "plugin:jsx-a11y/recommended",
+        "airbnb", 
+        "airbnb-babel",
+        "airbnb-typescript"
+    ],
+
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module",
+        "project": "./tsconfig.json"
+    },
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "babel",
+        "airbnb",
+        "airbnb/hooks",
+        "airbnb-typescript"
+
+    ],
+    "rules": {
+        "babel/new-cap": 1,
+        "babel/camelcase": 1,
+        "babel/no-invalid-this": 1,
+        "babel/object-curly-spacing": 1,
+        "babel/quotes": 1,
+        "babel/semi": 1,
+        "babel/no-unused-expressions": 1,
+        "babel/valid-typeof": 1
+      }
+}
